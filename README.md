@@ -4,11 +4,11 @@
 
 ## Technologies used
 
-> Reactjs(Next)
-> Graphql
-> Apollo
-> Redux
-> Tailwindcss
+- Reactjs(Next)
+- Graphql
+- Apollo
+- Redux
+- Tailwindcss
 
 ## Features
 
