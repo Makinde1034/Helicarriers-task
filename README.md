@@ -76,7 +76,7 @@ State management accross components with Redux. The code block below shows trans
 
 ### Filtering transactions by status, type and title
 
-Filtering transactions works by calling a reducer in the transaction state. The `filterTransactions` reducer recieves an object as argument. This object `{ filterBy: string; param: string }` contains fields `filterBy` (status, type or title) and `param` (string to filter with). 
+Filtering transactions works by calling a reducer in the transaction state. The `filterTransactions` reducer recieves an object as argument. This object `{ filterBy: string; param: string }` contains fields `filterBy` (status, type or title) and `param` (string to filter with). The FilterTransactions functions has a constant time complexity.
 
 
 ```
