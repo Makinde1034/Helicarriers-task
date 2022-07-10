@@ -20,9 +20,9 @@
 ---
 **Project setup**
 
-*yarn install* - Install project dependencies.
-*yarn dev* - Compiles and auto reload for development.
-*yarn lint* - Linting.
+- *yarn install* - Install project dependencies.
+- *yarn dev* - Compiles and auto reload for development.
+- *yarn lint* - Linting.
 
 ---
 
