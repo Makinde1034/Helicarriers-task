@@ -23,16 +23,16 @@ function Transaction({ title, amount, status, type, date, id }: transaction) {
   }
 
   return (
-    <tr className="hover:bg-blue-lightest w-full flex justify-between border border-gray ">
-      <td align="left" className="py-4 px-6    w-1/4  border-grey-light">
+    <tr className="hover:bg-greyish w-full flex cursor-pointer justify-between border border-gray ">
+      <td align="left" className="py-4 px-6    w-1/4  ">
         <p className=" font-semibold">{id}</p>
       </td>
 
-      <td align="left" className="py-4    w-1/4  border-grey-light">
+      <td align="left" className="py-4    w-1/4  ">
         <p className="font-lexand font-semibold text-sm">{title}</p>
       </td>
 
-      <td align="left" className="py-4 px-6  w-1/4  border-grey-light">
+      <td align="left" className="py-4 px-6  w-1/4  ">
         <p
           className={`text-left ${status === 'failed' && 'text-redish'} ${
             status === 'successful' && 'text-greenish'
@@ -42,7 +42,7 @@ function Transaction({ title, amount, status, type, date, id }: transaction) {
         </p>
       </td>
 
-      <td align="left" className="py-4 px-6  border-grey-light w-1/4  whitespace-nowrap">
+      <td align="left" className="py-4 px-6   w-1/4  whitespace-nowrap">
         <p className='font-lexand text-sm font-semibold'>{type}</p>
       </td>
 
@@ -57,8 +57,8 @@ function Transaction({ title, amount, status, type, date, id }: transaction) {
         </p>
       </td>
 
-      <td align="left" className="py-4 px-6 hidden md:block  border-grey-light w-1/4  whitespace-nowrap">
-        <p className='font-lexand text-sm'>{dateFormatter(date)}</p>
+      <td align="left" className="py-4 px-6 hidden md:block  w-1/4  whitespace-nowrap">
+        <p className='font-lexand font-semibold text-sm'>{dateFormatter(date)}</p>
       </td>
     </tr>
   )

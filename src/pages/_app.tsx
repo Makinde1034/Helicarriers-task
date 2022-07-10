@@ -1,6 +1,6 @@
 import React from 'react'
 import type { AppProps } from 'next/app'
-import { ApolloClient, InMemoryCache, ApolloProvider, gql } from '@apollo/client';
+import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 import Providers from '../Providers'
 import { store } from '../state'
 import '../styles/global.css'

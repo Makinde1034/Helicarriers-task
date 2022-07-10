@@ -23,8 +23,8 @@ function Search() {
       <nav className="w-full flex justify-center px-5">
         <input
           onChange={(e) => handleInput(e)}
-          className="bg-greyish border-0  rounded-lg outline-none w-full lg:w-1/2 h-14  pl-5 font-lexand text-sm"
-          placeholder="Search bank name, status, type"
+          className="bg-greyish border-0 hover:shadow-md ease-linear duration-300  rounded-lg outline-none w-full lg:w-1/2 h-14  pl-5 font-lexand text-sm"
+          placeholder="eg pending, successful, debit"
           type="text"
           value={input}
         />

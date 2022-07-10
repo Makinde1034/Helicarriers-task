@@ -4,7 +4,7 @@ module.exports = {
     colors: {
       greyish: '#F4F6F8',
       blueish: '#1374FC',
-      gray: '#EDF2F7',
+      gray: '#BBC3CF',
       redish: '#F94C66',
       white: '#FFFFFF',
       greenish: '#53BF9D',
@@ -15,6 +15,6 @@ module.exports = {
         lexand: ['Lexend Deca', 'sans-serif'],
       },
     },
-  },
+  },  
   plugins: [],
 }
