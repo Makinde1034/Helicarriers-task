@@ -57,4 +57,16 @@ export const getAllTransactions = gql`
 `
 ```
 
+### Setting data in state
 
+State management accross components with Redux. The code block below shows transaction data being set in the state immediately data is fetched. `data` is passed as dependency to useEffect hook.
+
+
+```
+ useEffect(() => {
+    // sets all transactions in redux state
+
+    const _transactions = data?.getAllTransactions
+    setTransactions(_transactions)
+  }, [data])
+```
