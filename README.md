@@ -17,6 +17,13 @@
 - Filter transactions by status (Pending, Failed and Successful).
 - Search transaction by status, title, type. 
 
+---
+**Project setup**
+
+It works with almost all markdown flavours (the below blank line matters).
+
+---
+
 ## Pages
 
 - Index.tsx
@@ -28,9 +35,4 @@
 - Search.tsx
 
 
----
-**NOTE**
 
-It works with almost all markdown flavours (the below blank line matters).
-
----
