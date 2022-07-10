@@ -116,4 +116,11 @@ state.transactions = searchItem()
 
 ## Usability and Improvement
 
+My experience with the usability of this app is very smooth as all buttons can be easily accessed. Using a green color for successful transactions and red for failed makes reading through transactions easy.  Grouping the transactions in different blocks with date improves user experience. 
+
+## Improvevements
+- Adding pagination or infinite scrolling. (Case where transaction history is large.)
+- Adding ability to filter by transaction amount. 
+- Having a component that displays total debit and credit transactions for a particular day. 
+
 
