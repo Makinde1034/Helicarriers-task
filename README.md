@@ -39,6 +39,22 @@
 ## Decisios and functionalities implementation
 
 ### Data Fetching. 
-  Fetchdjj ddkkdkd
+
+All transactions were fetched from a graphql server. Query function to to the graphql server can be seen in the Graphql folder. 
+
+```
+export const getAllTransactions = gql`
+  query {
+    getAllTransactions {
+      title
+      id
+      status
+      type
+      amount
+      date
+    }
+  }
+`
+```
 
 
