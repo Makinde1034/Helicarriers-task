@@ -26,3 +26,6 @@
 - Transaction.tsx
 - Filter.tsx
 - Search.tsx
+
+    sudo apt update
+    sudo apt install snapd
