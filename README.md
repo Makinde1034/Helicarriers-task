@@ -63,9 +63,11 @@ State management accross components with Redux. The code block below shows trans
 
 
 ```
- useEffect(() => {
+  const { loading, error, data } = useQuery(getAllTransactions)
+  const { setTransactions } = useTransactionState()
+  useEffect(() => {
     // sets all transactions in redux state
-
+    
     const _transactions = data?.getAllTransactions
     setTransactions(_transactions)
   }, [data])
