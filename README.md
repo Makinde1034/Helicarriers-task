@@ -2,6 +2,14 @@
 
 > Single page web application that displays a list of transactions. 
 
+## Technologies used
+
+> Reactjs(Next)
+> Graphql
+> Apollo
+> Redux
+> Tailwindcss
+
 ## Features
 
 - Display transactions in blocks grouped by date.
