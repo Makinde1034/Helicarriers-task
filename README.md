@@ -37,7 +37,7 @@
 - Filter.tsx
 - Search.tsx
 
-## Decisios and functionalities implementation
+## Decisions and functionalities implementation
 
 ### Data Fetching. 
 
@@ -114,6 +114,6 @@ state.transactions = searchItem()
 ```
 
 
-
+## Usability and Improvement
 
 
