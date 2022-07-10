@@ -5,6 +5,7 @@
 ## Technologies used
 
 - Reactjs(Next)
+- TypeScript
 - Graphql
 - Apollo
 - Redux
@@ -90,3 +91,29 @@ Filtering transactions works by calling a reducer in the transaction state. The 
       state.transactions = filteredState
   },
 ```
+
+### Searching transcations by status, type and title
+
+Searching transactions works by calling a reducer method. The `search` reducer recieves a string (text to search with ) as  argument. The search reducers loops through all transactions and stores all transactions that matches the argument, the results are then stored in a global state. Time complexity for is o(n). 
+
+```
+search: (state, action: PayloadAction<string>) => {
+  const searchItem = () => {
+    const searchResult = []
+    for (let i = 0; i < state.transactionsF?.length; i++) {
+      for (const x in state.transactionsF[i]) {
+        console.log(String(state.transactionsF[i][x]))
+        if (String(state.transactionsF[i][x]).toLowerCase().includes(action.payload.toLowerCase())) {
+          searchResult.push(state.transactionsF[i])
+        } 
+      }
+    }
+    return searchResult
+}
+state.transactions = searchItem()
+```
+
+
+
+
+
