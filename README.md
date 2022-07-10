@@ -72,3 +72,21 @@ State management accross components with Redux. The code block below shows trans
     setTransactions(_transactions)
   }, [data])
 ```
+
+### Filtering transactions by status, type and title
+
+Filtering transactions works by calling a reducer in the transaction state. The `filterTransactions` reducer recieves an object as argument. This object `{ filterBy: string; param: string }` contains fields `filterBy` (status, type or title) and `param` (string to filter with). 
+
+
+```
+ filterTransactions: (state, action: PayloadAction<{ filterBy: string; param: string }>) => {
+      if (action.payload.filterBy === null && action.payload.param === null) {
+        state.transactions = state.transactionsF
+        return
+      }
+      const filteredState = state.transactionsF.filter((i) => {
+        return i[action.payload.filterBy] === action.payload.param
+      })
+      state.transactions = filteredState
+  },
+```
