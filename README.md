@@ -127,3 +127,5 @@ My experience with the usability of this app is very smooth as all buttons can b
 ### Screenshots
 
 [![localhost-3000-Google-Chrome-7-10-2022-7-21-45-PM-2.png](https://i.postimg.cc/prvwxhR2/localhost-3000-Google-Chrome-7-10-2022-7-21-45-PM-2.png)](https://postimg.cc/8JyKmC73)
+
+[localhost-3000-Google-Chrome-7-10-2022-7-29-10-PM-2.png](https://postimg.cc/SnfxN02R)
