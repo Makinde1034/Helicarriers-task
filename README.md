@@ -8,3 +8,13 @@
 - Filter transactions by type (Debit or Credit).
 - Filter transactions by status (Pending, Failed and Successful).
 - Search transaction by status, title, type. 
+
+## Pages
+
+- Index.tsx
+
+## Components
+- Transactions.tsx
+- Transaction.tsx
+- Filter.tsx
+- Search.tsx
