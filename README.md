@@ -36,5 +36,8 @@
 - Filter.tsx
 - Search.tsx
 
+## Decisios and functionalities implementation
+
+### hrhrh
 
 
