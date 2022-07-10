@@ -38,6 +38,7 @@
 
 ## Decisios and functionalities implementation
 
-### hrhrh
+### Data Fetching. 
+  Fetchdjj ddkkdkd
 
 
