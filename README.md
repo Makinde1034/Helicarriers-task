@@ -2,6 +2,8 @@
 
 > Single page web application that displays a list of transactions. 
 
+Live demo : [https://makinde-helicarrier.netlify.app/](https://makinde-helicarrier.netlify.app/)
+
 ## Technologies used
 
 - Reactjs(Next)
