@@ -19,7 +19,7 @@ const IndexPage = () => {
   }, [data])
 
   return loading ? (
-    <div className='h-full w-full flex justify-center items-center'>loading...</div>
+    <div className='h-full w-full pt-20 flex justify-center items-center'>Fetching transactions...</div>
   ) : (
     <div className="flex flex-col justify-center w-full max-w-screen-2xl mx-auto pt-8 pb-10">
       <Search />
