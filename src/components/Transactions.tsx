@@ -10,27 +10,6 @@ function Transactions() {
   return transactions?.length !== 0 ? (
     <div className="px-5 w-full">
       <p className="text-sm mb-5 mt-5 font-lexand font-semibold">July 15, 2022</p>
-      {/* <tr className="bg-greyish w-full flex cursor-pointer justify-between border border-gray ">
-        <td align="left" className="py-4 px-6    w-1/4  ">
-          <p className='font-bold font-lexand text-sm '>ID</p>
-        </td>
-        <td align="left" className="py-4 px-6    w-1/4  ">
-          <p className='font-bold font-lexand text-sm'>BANK</p>
-        </td>
-        <td align="left" className="py-4 px-6    w-1/4  ">
-          <p className='font-bold font-lexand text-sm'>STATUS</p>
-        </td>
-        <td align="left" className="py-4 px-6    w-1/4  ">
-          <p className='font-semibold font-lexand text-sm'>TYPE</p>
-        </td>
-        <td align="left" className="py-4 px-6    w-1/4  ">
-          <p className='font-semibold font-lexand text-sm'>AMOUNT</p>
-        </td>
-        <td align="left" className="py-4 px-6    w-1/4  ">
-          <p className='font-semibold font-lexand text-sm'>DATE</p>
-        </td>
-        
-      </tr> */}
       <table className="mb-2 w-full inline-block rounded-lg shadow-lg  overflow-scroll lg:overflow-hidden">
         {transactions?.map((item, index) => (
           <div key={index}>
