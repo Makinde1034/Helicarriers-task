@@ -94,7 +94,7 @@ Filtering transactions works by calling a reducer in the transaction state. The 
 
 ### Searching transcations by status, type and title
 
-Searching transactions works by calling a reducer method. The `search` reducer recieves a string (text to search with ) as  argument. The search reducers loops through all transactions and stores all transactions that matches the argument, the results are then stored in a global state. Time complexity for is o(n). 
+Searching transactions works by calling a reducer method. The `search` reducer recieves a string (text to search with ) as  argument. The search reducers loops through all transactions and stores all transactions that matches the argument, the results are then stored in a global state.
 
 ```
 search: (state, action: PayloadAction<string>) => {
@@ -102,7 +102,6 @@ search: (state, action: PayloadAction<string>) => {
     const searchResult = []
     for (let i = 0; i < state.transactionsF?.length; i++) {
       for (const x in state.transactionsF[i]) {
-        console.log(String(state.transactionsF[i][x]))
         if (String(state.transactionsF[i][x]).toLowerCase().includes(action.payload.toLowerCase())) {
           searchResult.push(state.transactionsF[i])
         } 
@@ -126,9 +125,8 @@ My experience with the usability of this app is very smooth as all buttons can b
 
 ### Screenshots
 
-[![localhost-3000-Google-Chrome-7-10-2022-7-21-45-PM-2.png](https://i.postimg.cc/prvwxhR2/localhost-3000-Google-Chrome-7-10-2022-7-21-45-PM-2.png)](https://postimg.cc/8JyKmC73)
+[![localhost-3000-Google-Chrome-7-10-2022-8-59-54-PM-2.png](https://i.postimg.cc/T1LzXp7w/localhost-3000-Google-Chrome-7-10-2022-8-59-54-PM-2.png)](https://postimg.cc/gLpSVkPF)
 
-[![localhost-3000-Google-Chrome-7-10-2022-7-29-10-PM-2.png](https://i.postimg.cc/Vk3rgmzq/localhost-3000-Google-Chrome-7-10-2022-7-29-10-PM-2.png)](https://postimg.cc/SnfxN02R)
+[![localhost-3000-Google-Chrome-7-10-2022-9-01-19-PM-2.png](https://i.postimg.cc/N0NGs247/localhost-3000-Google-Chrome-7-10-2022-9-01-19-PM-2.png)](https://postimg.cc/mcHWVDKt)
 
-
-[![localhost-3000-Google-Chrome-7-10-2022-7-32-13-PM-2.png](https://i.postimg.cc/YqCdKfYX/localhost-3000-Google-Chrome-7-10-2022-7-32-13-PM-2.png)](https://postimg.cc/z34CThdW)
+[![localhost-3000-Google-Chrome-7-10-2022-9-02-35-PM-2.png](https://i.postimg.cc/BZF3yVdC/localhost-3000-Google-Chrome-7-10-2022-9-02-35-PM-2.png)](https://postimg.cc/grG1LNcw)
