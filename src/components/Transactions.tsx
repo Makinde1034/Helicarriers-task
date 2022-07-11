@@ -65,7 +65,7 @@ function Transactions() {
         ))}
       </table>
       <p className="text-sm mb-5  mt-5 font-lexand font-semibold">July 13, 2022</p>
-      <table className="mb-2 w-full inline-block shadow-sm rounded-lg shadow-lg  overflow-scroll lg:overflow-hidden">
+      <table className="mb-2 w-full inline-block  rounded-lg shadow-lg  overflow-scroll lg:overflow-hidden">
         {transactions?.map((item, index) => (
           <div key={index}>
             {item.date === '2022-07-13' && (
@@ -82,7 +82,7 @@ function Transactions() {
         ))}
       </table>
       <p className="text-sm mb-5  mt-5 font-lexand font-semibold">July 12, 2022</p>
-      <table className="mb-2 w-full inline-block shadow-sm rounded-lg shadow-lg  overflow-scroll lg:overflow-hidden">
+      <table className="mb-2 w-full inline-block  rounded-lg shadow-lg  overflow-scroll lg:overflow-hidden">
         {transactions?.map((item, index) => (
           <div key={index}>
             {item.date === '2022-07-12' && (
@@ -99,7 +99,7 @@ function Transactions() {
         ))}
       </table>
       <p className="text-sm mb-5  mt-5 font-lexand font-semibold">July 11, 2022</p>
-      <table className="mb-2 w-full inline-block shadow-sm rounded-lg shadow-lg overflow-scroll lg:overflow-hidden">
+      <table className="mb-2 w-full inline-block  rounded-lg shadow-lg overflow-scroll lg:overflow-hidden">
         {transactions?.map((item, index) => (
           <div key={index}>
             {item.date === '2022-07-11' && (
@@ -116,7 +116,7 @@ function Transactions() {
         ))}
       </table>
       <p className="text-sm mb-5  mt-5 font-semibold">July 10, 2022</p>
-      <table className="mb-2 w-full inline-block shadow-sm rounded-lg shadow-lg  overflow-scroll lg:overflow-hidden">
+      <table className="mb-2 w-full inline-block  rounded-lg shadow-lg  overflow-scroll lg:overflow-hidden">
         {transactions?.map((item, index) => (
           <div key={index}>
             {item.date === '2022-07-10' && (

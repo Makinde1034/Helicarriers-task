@@ -36,7 +36,6 @@ const transactionsSlice = createSlice({
         const searchResult = []
         for (let i = 0; i < state.transactionsF?.length; i++) {
           for (const x in state.transactionsF[i]) {
-            console.log(String(state.transactionsF[i][x]))
             if (String(state.transactionsF[i][x]).toLowerCase().includes(action.payload.toLowerCase())) {
               searchResult.push(state.transactionsF[i])
             } 

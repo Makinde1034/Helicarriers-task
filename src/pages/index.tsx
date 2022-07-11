@@ -5,6 +5,7 @@ import { getAllTransactions } from '../graphQl/Queries'
 import Search from '../components/Search'
 import Filter from '../components/Filter'
 import Transactions from '../components/Transactions'
+import Preloader from '../components/Preloader'
 
 const IndexPage = () => {
   // loads all transaction from server
@@ -19,9 +20,11 @@ const IndexPage = () => {
   }, [data])
 
   return loading ? (
-    <div className='h-full w-full pt-20 flex justify-center items-center'>Fetching transactions...</div>
+    <div className='h-screen w-full   flex justify-center items-center'>
+      <Preloader />
+    </div>
   ) : (
-    <div className="flex flex-col justify-center w-full max-w-screen-2xl mx-auto pt-8 pb-10">
+    <div className="flex flex-col justify-center w-full max-w-screen-2xl mx-auto pt-8 pb-12">
       <Search />
       <Filter />
       <Transactions />
