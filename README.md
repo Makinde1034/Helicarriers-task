@@ -132,3 +132,9 @@ My experience with the usability of this app is very smooth as all buttons can b
 [![localhost-3000-Google-Chrome-7-10-2022-9-01-19-PM-2.png](https://i.postimg.cc/N0NGs247/localhost-3000-Google-Chrome-7-10-2022-9-01-19-PM-2.png)](https://postimg.cc/mcHWVDKt)
 
 [![localhost-3000-Google-Chrome-7-10-2022-9-02-35-PM-2.png](https://i.postimg.cc/BZF3yVdC/localhost-3000-Google-Chrome-7-10-2022-9-02-35-PM-2.png)](https://postimg.cc/grG1LNcw)
+
+[![bc1.jpg](https://i.postimg.cc/G2hQh1Y4/bc1.jpg)](https://postimg.cc/67gRYgMK)
+
+[![bc2.jpg](https://i.postimg.cc/TYGrRx6f/bc2.jpg)](https://postimg.cc/8sKFHqc0)
+
+[![bc3.jpg](https://i.postimg.cc/htNvt8dT/bc3.jpg)](https://postimg.cc/87BNy6wz)
