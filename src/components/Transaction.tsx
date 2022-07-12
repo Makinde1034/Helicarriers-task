@@ -25,7 +25,7 @@ function Transaction({ title, amount, status, type, date, id }: transaction) {
   return (
     <tr className="hover:bg-greyish w-full flex cursor-pointer justify-between border border-greyish ">
       <td align="left" className="py-4 px-6    w-1/4  ">
-        <p className=" font-semibold">{id}</p>
+        <p className="font-semibold font-lexand">{id}</p>
       </td>
 
       <td align="left" className="py-4    w-1/4  ">

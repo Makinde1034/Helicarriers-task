@@ -94,7 +94,7 @@ function Transactions() {
           </div>
         ))}
       </table>
-      <p className="text-sm mb-5  mt-5 font-semibold">July 10, 2022</p>
+      <p className="text-sm mb-5 font-lexand  mt-5 font-semibold">July 10, 2022</p>
       <table className="mb-2 w-full inline-block  rounded-lg shadow-lg  overflow-scroll lg:overflow-hidden">
         {transactions?.map((item, index) => (
           <div key={index}>
