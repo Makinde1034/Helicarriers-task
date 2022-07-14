@@ -94,7 +94,7 @@ Filtering transactions works by calling a reducer in the transaction state. The 
   },
 ```
 
-### Searching transcations by status, type and title
+### Searching transcations by status, type or title
 
 Searching transactions works by calling a reducer method. The `search` reducer recieves a string (text to search with ) as  argument. The search reducers loops through all transactions and stores all transactions that matches the argument, the results are then stored in a global state.
 
