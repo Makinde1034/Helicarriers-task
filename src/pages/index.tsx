@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import { useQuery} from '@apollo/client'
+import Head from 'next/head'
 import { useTransactionState } from '../state/transactionState/hooks'
 import { getAllTransactions } from '../graphQl/Queries'
 import Search from '../components/Search'
@@ -25,6 +26,10 @@ const IndexPage = () => {
     </div>
   ) : (
     <div className="flex flex-col justify-center w-full max-w-screen-2xl mx-auto pt-8 pb-12">
+      <Head>
+        <title>Transaction history</title>
+        <meta property="og:title" content="List of transactions" key="title" />
+      </Head>
       <Search />
       <Filter />
       <Transactions />
